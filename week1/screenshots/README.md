@@ -7,7 +7,7 @@ print: Has a return value of 1 (so it can be used in expressions), but is slight
 if: Checks if a condition is True. If it is, the code inside its block executes.
 elseif: Checks an alternative condition if the preceding if or elseif condition evaluated to False. Multiple elseif statements can be chained together.
 else: The default fallback block. It executes only when all preceding if and elseif conditions evaluate to False.
-#### switch Statement:
+### switch Statement:
 Expression Matching: Evaluates a value once and tests it against each case using loose equality (==).
 
 case: Defines a target value and the code block to run if matched.
